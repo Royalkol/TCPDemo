@@ -38,7 +38,7 @@ public class TcpClient implements Runnable{
     public void send(String msg){
         try {
             socket = new Socket(serverIP,serverPort);
-            socket.setSoTimeout(5000);
+            socket.setSoTimeout(50000);
             pw = new PrintWriter(socket.getOutputStream(),true);
         } catch (SocketException e) {
             e.printStackTrace();
@@ -57,7 +57,7 @@ public class TcpClient implements Runnable{
     public void run() {
         try {
             socket = new Socket(serverIP,serverPort);
-            socket.setSoTimeout(5000);
+            socket.setSoTimeout(50000);
             pw = new PrintWriter(socket.getOutputStream(),true);
             is = socket.getInputStream();
             dis = new DataInputStream(is);

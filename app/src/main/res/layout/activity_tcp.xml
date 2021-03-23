@@ -12,11 +12,11 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_relay1"
+            android:id="@+id/btn_relayopen1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@drawable/selector_orange"
-            android:text="开关"
+            android:text="开"
             android:textColor="#FFFFFF" />
 
         <TextView
@@ -26,6 +26,15 @@
             android:background="@color/colorAccent"
             android:gravity="center"
             android:text="继电器1" />
+
+        <Button
+            android:id="@+id/btn_relayclose1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_orange"
+            android:text="关"
+            android:layout_marginLeft="50dp"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
     <LinearLayout
@@ -35,11 +44,11 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_relay2"
+            android:id="@+id/btn_relayopen2"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@drawable/selector_orange"
-            android:text="开关"
+            android:text="开"
             android:textColor="#FFFFFF" />
 
         <TextView
@@ -48,7 +57,16 @@
             android:layout_marginLeft="50dp"
             android:background="@color/colorAccent"
             android:gravity="center"
-            android:text="继电器2" />
+            android:text="继电器1" />
+
+        <Button
+            android:id="@+id/btn_relayclose2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_orange"
+            android:text="关"
+            android:layout_marginLeft="50dp"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
     <LinearLayout
@@ -58,11 +76,11 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_relay3"
+            android:id="@+id/btn_relayopen3"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@drawable/selector_orange"
-            android:text="开关"
+            android:text="开"
             android:textColor="#FFFFFF" />
 
         <TextView
@@ -71,7 +89,16 @@
             android:layout_marginLeft="50dp"
             android:background="@color/colorAccent"
             android:gravity="center"
-            android:text="继电器3" />
+            android:text="继电器1" />
+
+        <Button
+            android:id="@+id/btn_relayclose3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_orange"
+            android:text="关"
+            android:layout_marginLeft="50dp"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
 
